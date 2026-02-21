@@ -1,0 +1,2193 @@
+/* -- Index HTML -- */
+
+
+.indexheader {
+    background: #000000;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 25%, rgba(0, 0, 0, 0) 100%);
+    border: 5px solid ;
+    color: rgb(255, 255, 255);
+    display: flex;
+    height: 100px;
+    padding-bottom: 30px;
+    justify-content: center;
+}
+.indexheaderh1 {
+    width: 1000px;
+}
+.logo {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    transition: 0.1s all linear;
+}
+.logo:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 30px rgb(255, 255, 255);
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+
+.bodyindex {
+    text-align: center;
+    background-color: #73C8D2;
+    color: white;
+    background-image: url(Foto/Sman3_Night_Gedung1.jpg);
+    background-position: center;
+    background-size: cover;
+    text-shadow: 2px 2px 2px black;
+}
+.indexmain {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    height: 300px;
+}
+.indexsection {
+    text-shadow: 2px 2px 5px black;
+    width: 25%;
+    height: 80%;
+    margin: 30px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+    text-decoration: none;
+    
+}
+.indexsectionh1 {
+    margin-top: 100px;
+}
+.indexsection1 {
+    background-image: url(Foto/Badi_MPLS.jfif);
+    background-size: cover;
+    background-position: center;
+    border: 5px solid #746735;
+    color: rgb(255, 168, 168);
+    transition: 0.25s all linear;
+}
+.indexsection1:hover {
+    background-image: url(Foto/Badi_End10.jfif);
+    border: 5px solid #b89b29;
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgb(255, 255, 255);
+    color: #ff00dd;
+}
+.indexsection2 {
+    background-image: url(Foto/Badi_Cool.jfif);
+    background-size: cover;
+    background-position: center;
+    border: 5px solid #006bc2;
+    color: rgb(107, 255, 127);
+    transition: 0.25s all linear;
+}
+.indexsection2:hover {
+    background-image: url(Foto/Badi_Weird.jfif);
+    border: 5px solid rgb(0, 255, 179);
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgb(255, 255, 255);
+    color: #01ff0d;
+}
+.indexsection3 {
+    background-image: url(Pictures/Pulau\ Derawan\ Profil\ 1.jpeg);
+    background-size: cover;
+    background-position: center;
+    border: 5px solid #00973a;
+    color: rgb(60, 255, 0);
+    transition: 0.25s all linear;
+}
+.indexsection3:hover {
+    background-image: url(Pictures/Pulau\ Derawan\ Beranda\ \ 1.jpeg);
+    border: 5px solid rgb(0, 255, 255);
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgb(255, 255, 255);
+    color: #00ffff;
+}
+.bigupdate {
+    color: rgb(0, 111, 131);
+    font-weight: bolder;
+}
+.midupdate {
+    color: rgb(0, 104, 0);
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+/* -- Semua Halaman -- */
+
+
+
+
+
+
+
+
+
+
+header {
+    background-color: #0046FF;
+    border: 5px solid #002383;
+    color: rgb(255, 255, 255);
+    display: flex;
+    height: 100px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px black;
+}
+body {
+    background-color: #16007a;
+}
+header h1 {
+    margin-left: 30px;
+    margin-bottom: 0px;
+    font-size: 40px;
+}
+nav {
+    margin-left: auto;
+    text-align: center;
+    
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+nav ul li {
+    position: relative;
+    margin: 0 15px;
+    border-radius: 10px;
+}
+nav ul li:hover {
+    background-color: #1b232c;
+}
+nav ul li a {
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    display: block;
+}
+nav ul li a:hover {
+    background: #1a222b;
+    border-radius: 5px;
+}
+nav ul li ul {
+    display: none;
+    position: absolute;
+    top: 58px;
+    left: 0;
+    background: #26323f;
+    list-style: none;
+    padding: 0;
+    margin:0;
+    border-radius: 5px;
+    z-index: 1000
+}
+nav ul li ul li {
+    margin: 0px;
+    width: 150px;
+    text-align: center;
+}
+nav ul li ul li a {
+    padding: 10px;
+    font-weight: normal;
+}
+nav ul li:hover ul {
+    display: block; /*flex untuk ke samping*/
+}
+.beranda {
+    color: aqua;
+}
+.beranda1 {
+    color: rgb(255, 230, 0);
+}
+.line1 {
+    top: 35px;
+}
+.line2 {
+    top: 58px;
+}
+.line3 {
+    top: 80px;
+}
+
+aside {
+    background: rgba(2, 0, 36, 0.1);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 100%);
+    border: 5px solid #ffffff;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 20px;
+    text-align: left;
+    box-shadow: 0 0 15px black;
+}
+aside h1{
+    text-align: center;
+}
+footer {
+    color: white;
+    background: #000000;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 30%, rgba(0, 0, 0, 0) 100%);
+    border: 5px solid #0c004e;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 15px black;
+}
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+footer ul li {
+    position: relative;
+    margin: 0 15px;
+    border-radius: 10px;
+}
+footer ul li:hover {
+    background-color: #1b232c;
+}
+
+a {
+    text-decoration: none;
+}
+
+.spanduk {
+    border:5px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    margin: auto auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 50%;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 15px black;
+}
+
+.NL {
+    display: flex;
+    gap: 40px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.NLpad {
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.NLtop {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.NPG {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.newline {
+    padding-top: 3px;
+}
+
+
+/* Tests */
+
+.maintest {
+    border:5px solid rgb(80, 0, 0);
+    background-color: rgb(184, 0, 0);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    margin: auto auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 50%;
+    text-align: center;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -- Main Navigasi -- */
+
+
+
+
+
+
+
+
+
+
+
+
+.mainNav {
+    display: block;
+    border: 5px solid none;
+    background-color: none;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.mainNav h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin: auto auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    border: 5px solid black;
+    width: 20%;
+    background-color: white;
+    color: black;
+}
+.divmainNav {
+    display: flex;
+    border-radius: 30px;
+    justify-content: center;
+    margin: auto auto;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+.secmainNav {
+    background-color: rgb(255, 255, 255);
+    border: 5px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    margin: auto auto;
+    width: 35%;
+    box-shadow: 0 0 20px black;
+}
+.divmainNav a {
+    color: black;
+    text-shadow: 0 0 10px black;
+}
+.artsecmainNav {
+    border-radius: 10px;
+    background-color:#003f3f;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    padding: 10px;
+    text-align: justify;
+    margin: auto auto;
+    box-shadow: 0 0 10px black;
+}
+.secmainNav article h3 {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    background-color: rgba(0, 0, 0, 0.25);
+}
+.secmainNav article p {
+    background-color: rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);   
+}
+.BPD{
+    border:5px solid #5f8180;
+    background-color: #a6cfcd;
+    transition: 0.2s all linear;
+}
+.BPD:hover {
+    transform: scale(1.05);
+    border:5px solid #abcfce;
+    background-color: #d1fffd;
+    box-shadow: 0 0 30px rgb(187, 255, 255);
+}
+.artBPD {
+    background-image: url(Pictures/Pulau\ Derawan\ Beranda\ Logo\ New.webp);
+    color: white;
+}
+
+.PSPD {
+    border:5px solid #358582 ;
+    background-color: #66D2CE ;
+    transition: 0.2s all linear;
+}
+.PSPD:hover {
+    transform: scale(1.05);
+    border:5px solid #1f9692 ;
+    background-color: #44fff9 ;
+    box-shadow: 0 0 30px #7bfffb;
+}
+.artPSPD {
+    background-image: url(Pictures/PD\ -\ DTW\ -\ Danau\ Kakaban.jpeg);
+    color: white;
+}
+.PFPD {
+    border:5px solid #217a71;
+    background-color: #2DAA9E;
+    transition: 0.2s all linear;
+}
+.PFPD:hover {
+    transform: scale(1.05);
+    border:5px solid #169689;
+    background-color: #00dac4;
+    box-shadow: 0 0 30px #47ffed;
+}
+.artPFPD {
+    background-image: url(Pictures/FasPD\ -\ Bandara\ Kalimarau.jpeg);
+    color:rgb(255, 255, 255);
+}
+.BTPPD {
+    border:5px solid #b1b1b1 ;
+    background-color: #EAEAEA;
+    transition: 0.2s all linear;
+}
+.BTPPD:hover {
+    transform: scale(1.05);
+    border:5px solid #dadada ;
+    background-color: #ffffff;
+    box-shadow: 0 0 30px white;
+}
+.artBTPPD {
+    background-image: url(Pictures/PD\ -\ BTP1.jpg);
+    color: white;
+}
+.BEPD {
+    border: 5px solid #58524c;
+    background-color: #E3D2C3;
+    transition: 0.2s all linear;
+}
+.BEPD:hover {
+    transform: scale(1.05);
+    border: 5px solid #c4c4c4;
+    background-color: #fff8f2;
+    box-shadow: 0 0 30px white;
+}
+.artBEPD {
+    background-image: url(Pictures/PD\ -\ BE1.jpg);
+    color: white;
+}
+
+
+
+
+.awhite {
+    color:white
+}
+
+.BPW{
+    border:5px solid #5f8180;
+    background-color: #a6cfcd;
+    transition: 0.2s all linear;
+}
+.BPW:hover {
+    transform: scale(1.05);
+    border:5px solid #98c0bf;
+    background-color: #bcfffc;
+    box-shadow: 0 0 30px rgb(187, 255, 255);
+}
+.artBPW {
+    background-image: url(Pictures/Pulau\ Weh\ Beranda\ Logo.webp);
+    color: white;
+}
+
+.PSPW {
+    border:5px solid #412999 ;
+    background-color: #6439FF ;
+    transition: 0.2s all linear;
+    color: white
+}
+.PSPW:hover {
+    transform: scale(1.05);
+    border:5px solid #4f2bd1 ;
+    background-color: #825fff ;
+    box-shadow: 0 0 30px #7d0cff;
+}
+.artPSPW {
+    background-image: url(Pictures/Pulau\ Weh\ Profil\ 1.jpeg);
+    color: white;
+}
+.PFPW {
+    border:5px solid #263a83;
+    background-color: #4F75FF;
+    transition: 0.2s all linear;
+}
+.PFPW:hover {
+    transform: scale(1.05);
+    border:5px solid #1b3fc2;
+    background-color: #92aaff;
+    box-shadow: 0 0 30px #8583ff;
+}
+.artPFPW {
+    background-image: url(Pictures/FasPD\ -\ Bandara\ Kalimarau.jpeg);
+    color:rgb(255, 255, 255);
+}
+.BTPPW {
+    border:5px solid #007883 ;
+    background-color: #00CCDD;
+    transition: 0.2s all linear;
+}
+.BTPPW:hover {
+    transform: scale(1.05);
+    border:5px solid #00b8c9 ;
+    background-color: #2eeeff;
+    box-shadow: 0 0 30px rgb(57, 209, 255);
+}
+.artBTPPW {
+    background-image: url(Pictures/PD\ -\ BTP1.jpg);
+    color: white;
+}
+.BEPW {
+    border: 5px solid #4d9ca3;
+    background-color: #7CF5FF;
+    transition: 0.2s all linear;
+}
+.BEPW:hover {
+    transform: scale(1.05);
+    border: 5px solid #0fd5e7;
+    background-color: #5cf1ff;
+    box-shadow: 0 0 30px rgb(33, 255, 237);
+}
+.artBEPW {
+    background-image: url(Pictures/PD\ -\ BE1.jpg);
+    color: white;
+}
+
+
+
+
+
+
+.BBB{
+    border:5px solid #5f8180;
+    background-color: #a6cfcd;
+    transition: 0.2s all linear;
+}
+.BBB:hover {
+    transform: scale(1.05);
+    border:5px solid #98c0bf;
+    background-color: #bcfffc;
+    box-shadow: 0 0 30px rgb(187, 255, 255);
+}
+.artBBB {
+    background-image: url(Pictures/Logo\ Beranda\ Labuan\ Bajo.jpeg);
+    color: white;
+}
+
+.PSBB {
+    border:5px solid #052525 ;
+    background-color: #005555 ;
+    transition: 0.2s all linear;
+}
+.PSBB:hover {
+    transform: scale(1.05);
+    border:5px solid #0c7a7a ;
+    background-color: #00bebe ;
+    box-shadow: 0 0 30px #1ca39f;
+}
+.artPSBB {
+    background-image: url(Pictures/Dusk_&_Dawn_in_Kalong_Island\,_Labuan_Bajo.jpg);
+    color: white;
+}
+.PFBB {
+    border:5px solid #0a5750;
+    background-color: #069A8E;
+    transition: 0.2s all linear;
+}
+.PFBB:hover {
+    transform: scale(1.05);
+    border:5px solid #12a599;
+    background-color: #08ddcb;
+    box-shadow: 0 0 30px #47ffed;
+}
+.artPFBB {
+    background-image: url(Pictures/TamanNasionalKomodo\ LabuanBajo.jpeg);
+    color:rgb(255, 255, 255);
+}
+.BTPBB {
+    border:5px solid #5e9188 ;
+    background-color: #A1E3D8;
+    transition: 0.2s all linear;
+}
+.BTPBB:hover {
+    transform: scale(1.05);
+    border:5px solid #81c4b7 ;
+    background-color: #befff4;
+    box-shadow: 0 0 30px rgb(230, 250, 255);
+}
+.artBTPBB {
+    background-image: url(Pictures/Labuan\ Bajo\ Berita\ pantai\ 1.webp);
+    color: white;
+}
+.BEBB {
+    border: 5px solid #8a8f43;
+    background-color: #F7FF93;
+    transition: 0.2s all linear;
+}
+.BEBB:hover {
+    transform: scale(1.05);
+    border: 5px solid #cdd468;
+    background-color: #faffb6;
+    box-shadow: 0 0 30px rgb(254, 255, 199);
+}
+.artBEBB {
+    background-image: url(Pictures/Labuan\ Bajo\ Berita\ Event\ 1.webp);
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* -- Kelas 10 -- Beranda -- */
+
+
+
+
+
+
+
+
+
+
+
+
+.bodyB {
+    display: block;
+    justify-content: center;
+    background: #16007A;
+    background: linear-gradient(180deg, rgba(22, 0, 122, 1) 0%, rgba(3, 0, 43, 1) 100%);
+}
+.logoB {
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+    margin: auto auto;
+    height: 500px;
+    background-image: url(Foto/Sman3_Night_Gedung2.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 30px;
+}
+.logoB h1 {
+    font-size: 75px;
+    margin-top: 200px;
+}
+.main1B {
+    display: flex;
+    background-color: #154D71;
+    height: 400px;
+    justify-content: left;
+    border: 5px solid #00284b;
+    border-radius: 30px;
+}
+.section1main1B {
+    background-color: #1873ac;
+    padding: 30px;
+    text-align: center;
+    width: 150%;
+    color: white;
+    border-radius: 30px;
+}
+.section2main1B {
+    background-color: #154D71;
+    padding: 30px;
+    text-align: justify;
+    color: white;
+    border-radius: 30px;
+}
+.fotomain1B {
+    width: 90%;
+    border-radius: 30px;
+}
+.main2B {
+    display: flex;
+    background-color: #0065F8;
+    height: 400px;
+    justify-content: right;
+    border:5px solid #1f0074;
+    border-radius: 30px;
+}
+.sec1main2B {
+    background-color: #0065F8;
+    padding: 30px;
+    text-align: justify;
+    color: white;
+    border-radius: 30px;
+}
+.sec2main2B {
+    background-color: #00CAFF;
+    padding: 30px;
+    text-align: center;
+    width: 150%;
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+}
+.fotomain2B {
+    width: 90%;
+    border-radius: 30px;
+}
+
+h3 i a {
+    text-shadow: 0 0 10px black;
+    color: white;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+/* -- Kelas 10 -- Bab 1 ---------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+.K10B1_body {
+    text-align: center;
+    background-color: rgb(0, 94, 0);
+    color: white;
+    background-image: url(Foto/Sman3_Kelas10.jpg);
+    background-position: center;
+    background-size: cover;
+    text-shadow: 0 0 10px black;
+}
+.K10B1_main {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    height: 300px;
+}
+.K10B1_section {
+    text-shadow: 0 0 10px black;
+    width: 25%;
+    height: 80%;
+    margin: 30px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+    text-decoration: none;
+    
+}
+.K10B1_sectionh1 {
+    margin-top: 100px;
+}
+.K10B1_section1 {
+    background-image: url(Foto/MateriDongeng.jfif);
+    background-size: cover;
+    background-position: center;
+    border: 5px solid #ff6600;
+    color: rgb(255, 0, 0);
+    transition: 0.25s all linear;
+}
+.K10B1_section1:hover {
+    background-image: url(Foto/Badi_MPLS.jfif);
+    border: 5px solid rgb(255, 0, 0);
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgb(255, 138, 42);
+    color: #ff6600;
+}
+.K10B1_section2 {
+    background-image: url(Foto/CatatPraktekDongeng.jfif);
+    background-size: cover;
+    background-position: center;
+    border: 5px solid #028dff;
+    color: rgb(0, 38, 255);
+    transition: 0.25s all linear;
+}
+.K10B1_section2:hover {
+    background-image: url(Foto/Badi_praktekdongeng.jfif);
+    border: 5px solid rgb(0, 26, 255);
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgb(37, 59, 255);
+    color: #008cff;
+}
+
+
+
+
+
+
+
+
+
+/* -- Bab 1 -- Materi Dongeng -- */
+
+
+
+
+
+
+
+.spandukcolor {
+    border: 5px solid #ffffff;
+    background-color: #000658;
+    color:white;
+}
+.BodyB1 {
+    display: block;
+}
+.main1B1 {
+    width: 80%;
+    margin: auto auto;
+    background-color: #000658;
+    border: 3px solid rgba(255, 255, 255, 1);
+    min-height: auto;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 15px black;
+}
+.s1m1B1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 20px;
+    text-shadow: 0 0 10px black;
+    height: auto;
+    border-radius: 20px;
+    width: 500px;
+    display: block;
+    background-color: #00054d;
+    border: 3px solid #00032b;
+}
+.fotos1m1B1 {
+    height: 650px;
+    width: 500px;
+    border-radius: 20px;
+    padding-top: 0px;
+    margin-top: 50px;
+}
+.s2m1B1 {
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    height: auto;
+    width: 500px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #000658;
+    text-shadow: 0 0 5px black;
+}
+
+
+
+
+
+
+
+
+
+/* -- Bab 1 -- Praktek Dongeng -- */
+
+
+
+
+
+
+
+
+
+
+.BodyB1P {
+    display: block;
+}
+.main1B1P {
+    width: 80%;
+    margin: auto auto;
+    background-color: #000658;
+    border: 3px solid rgba(255, 255, 255, 1);
+    min-height: auto;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 15px black;
+}
+.s2m1B1P {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 20px;
+    text-shadow: 0 0 10px black;
+    height: auto;
+    border-radius: 20px;
+    width: 500px;
+    display: block;
+    background-color: #00054d;
+    border: 3px solid #00032b;
+}
+.fotos2m1B1P {
+    height: 650px;
+    width: 500px;
+    border-radius: 20px;
+    padding-top: 0px;
+    margin-top: 50px;
+}
+.s1m1B1P {
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    height: auto;
+    width: 500px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #000658;
+    text-shadow: 0 0 5px black;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* -- Kelas 10 -- Bab 2 --------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+.K10B2_body {
+    text-align: center;
+    background-color: rgb(0, 94, 0);
+    color: white;
+    background-image: url(Foto/Sman3_Kelas10.jpg);
+    background-position: center;
+    background-size: cover;
+    text-shadow: 0 0 10px black;
+}
+.K10B2_main {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    height: 300px;
+}
+.K10B2_section {
+    text-shadow: 0 0 10px black;
+    width: 25%;
+    height: 80%;
+    margin: 30px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+    text-decoration: none;
+    
+}
+.K10B2_sectionh1 {
+    margin-top: 100px;
+}
+.K10B2_section1 {
+    background-image: url(Foto/MateriDongeng.jfif);
+    background-size: cover;
+    background-position: center;
+    border: 5px solid #ff6600;
+    color: rgb(255, 0, 0);
+    transition: 0.25s all linear;
+}
+.K10B2_section1:hover {
+    background-image: url(Foto/Badi_MPLS.jfif);
+    border: 5px solid rgb(255, 0, 0);
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgb(255, 138, 42);
+    color: #ff6600;
+}
+.K10B2_section2 {
+    background-image: url(Foto/CatatPraktekDongeng.jfif);
+    background-size: cover;
+    background-position: center;
+    border: 5px solid #028dff;
+    color: rgb(0, 38, 255);
+    transition: 0.25s all linear;
+}
+.K10B2_section2:hover {
+    background-image: url(Foto/Badi_praktekdongeng.jfif);
+    border: 5px solid rgb(0, 26, 255);
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgb(37, 59, 255);
+    color: #008cff;
+}
+
+
+
+
+
+
+
+
+/* -- Bab 2 -- Materi Aksara Sunda -- */
+
+
+
+
+
+
+.BodyB2 {
+    display: block;
+}
+.main1B2 {
+    width: 80%;
+    margin: auto auto;
+    background-color: #000658;
+    border: 3px solid rgba(255, 255, 255, 1);
+    min-height: auto;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 15px black;
+}
+.s1m1B2 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 20px;
+    text-shadow: 0 0 10px black;
+    height: auto;
+    border-radius: 20px;
+    width: 700px;
+    display: block;
+    background-color: #00054d;
+    border: 3px solid #00032b;
+}
+.fotos1m1B2 {
+    height: 1000px;
+    width: 700px;
+    border-radius: 20px;
+    padding-top: 0px;
+    margin-top: 50px;
+}
+.landscape {
+    height: 400px;
+}
+.s2m1B2 {
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    height: 1200px;
+    width: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #000658;
+    text-shadow: 0 0 5px black;
+}
+
+
+
+
+
+
+
+
+/* -- Kelas 10 -- Bab 3 --------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+.K10B3_body {
+    text-align: center;
+    background-color: rgb(0, 94, 0);
+    color: white;
+    background-image: url(Foto/Sman3_Kelas10.jpg);
+    background-position: center;
+    background-size: cover;
+    text-shadow: 0 0 10px black;
+}
+.K10B3_main {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    height: 300px;
+}
+.K10B3_section {
+    text-shadow: 0 0 10px black;
+    width: 25%;
+    height: 80%;
+    margin: 30px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+    text-decoration: none;
+    
+}
+.K10B3_sectionh1 {
+    margin-top: 100px;
+}
+.K10B3_section1 {
+    background-image: url(Foto/MateriDongeng.jfif);
+    background-size: cover;
+    background-position: center;
+    border: 5px solid #ff6600;
+    color: rgb(255, 0, 0);
+    transition: 0.25s all linear;
+}
+.K10B3_section1:hover {
+    background-image: url(Foto/Badi_MPLS.jfif);
+    border: 5px solid rgb(255, 0, 0);
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgb(255, 138, 42);
+    color: #ff6600;
+}
+.K10B3_section2 {
+    background-image: url(Foto/CatatPraktekDongeng.jfif);
+    background-size: cover;
+    background-position: center;
+    border: 5px solid #028dff;
+    color: rgb(0, 38, 255);
+    transition: 0.25s all linear;
+}
+.K10B3_section2:hover {
+    background-image: url(Foto/Badi_praktekdongeng.jfif);
+    border: 5px solid rgb(0, 26, 255);
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgb(37, 59, 255);
+    color: #008cff;
+}
+
+
+
+
+
+
+
+
+
+/* -- Bab 3 Biantara -- Materi Biantara -- */
+
+
+
+
+
+
+
+.main1B3 {
+    width: 80%;
+    margin: auto auto;
+    background-color: #000658;
+    border: 3px solid rgba(255, 255, 255, 1);
+    min-height: auto;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 15px black;
+}
+.s1m1B3 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 20px;
+    text-shadow: 0 0 10px black;
+    height: auto;
+    border-radius: 20px;
+    width: 300px;
+    display: block;
+    background-color: #00054d;
+    border: 3px solid #00032b;
+}
+.fotos1m1B3 {
+    height: 400px;
+    width: 300px;
+    border-radius: 20px;
+    padding-top: 0px;
+    margin-top: 50px;
+}
+.s2m1B3 {
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    height: auto;
+    width: 700px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #000658;
+    text-shadow: 0 0 5px black;
+}
+
+
+
+
+
+
+
+/* -- Kelas 10 -- Bab 4 --------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+.K10B4_body {
+    text-align: center;
+    background-color: rgb(0, 94, 0);
+    color: white;
+    background-image: url(Foto/Sman3_Kelas10.jpg);
+    background-position: center;
+    background-size: cover;
+    text-shadow: 0 0 10px black;
+}
+.K10B4_main {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    height: 300px;
+}
+.K10B4_section {
+    text-shadow: 0 0 10px black;
+    width: 25%;
+    height: 80%;
+    margin: 30px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+    text-decoration: none;
+    
+}
+.K10B4_sectionh1 {
+    margin-top: 100px;
+}
+.K10B4_section1 {
+    background-image: url(Foto/MateriDongeng.jfif);
+    background-size: cover;
+    background-position: center;
+    border: 5px solid #ff6600;
+    color: rgb(255, 0, 0);
+    transition: 0.25s all linear;
+}
+.K10B4_section1:hover {
+    background-image: url(Foto/Badi_MPLS.jfif);
+    border: 5px solid rgb(255, 0, 0);
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgb(255, 138, 42);
+    color: #ff6600;
+}
+.K10B4_section2 {
+    background-image: url(Foto/CatatPraktekDongeng.jfif);
+    background-size: cover;
+    background-position: center;
+    border: 5px solid #028dff;
+    color: rgb(0, 38, 255);
+    transition: 0.25s all linear;
+}
+.K10B4_section2:hover {
+    background-image: url(Foto/Badi_praktekdongeng.jfif);
+    border: 5px solid rgb(0, 26, 255);
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgb(37, 59, 255);
+    color: #008cff;
+}
+
+
+
+
+
+
+
+
+/* -- Bab 4 Kawih Sunda -- Materi Kawih Sunda -- */
+
+
+
+
+
+
+
+
+.BodyB4 {
+    display: block;
+}
+.main1B4 {
+    width: 80%;
+    margin: auto auto;
+    background-color: #000658;
+    border: 3px solid rgba(255, 255, 255, 1);
+    min-height: auto;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 15px black;
+}
+.s1m1B4 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 20px;
+    text-shadow: 0 0 10px black;
+    height: auto;
+    border-radius: 20px;
+    width: 300px;
+    display: block;
+    background-color: #00054d;
+    border: 3px solid #00032b;
+}
+.fotos1m1B4 {
+    height: 400px;
+    width: 300px;
+    border-radius: 20px;
+    padding-top: 0px;
+    margin-top: 50px;
+}
+.landscapeL {
+    height: 200px;
+}
+.s2m1B4 {
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    height: auto;
+    width: 700px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #000658;
+    text-shadow: 0 0 5px black;
+}
+.RS {
+    margin-left: 40px;
+}
+.song {
+    display: flex;
+    gap: 40px;
+    margin-top: 10px;
+    background-color: #000872;
+    border: 5px solid #00054b;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+/* -- KELAS 11 -- Beranda -------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+.bodyB_11 {
+    display: block;
+    justify-content: center;
+    background: #16007A;
+    background: linear-gradient(180deg, rgba(22, 0, 122, 1) 0%, rgba(3, 0, 43, 1) 100%);
+}
+.logoB_11 {
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+    margin: auto auto;
+    height: 500px;
+    background-image: url(Foto/Sman3_Night_Pohon.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 30px;
+}
+.logoB_11 h1 {
+    font-size: 75px;
+    margin-top: 200px;
+}
+.main1B_11 {
+    display: flex;
+    background-color: #154D71;
+    height: 400px;
+    justify-content: left;
+    border: 5px solid #00284b;
+    border-radius: 30px;
+}
+.section1main1B_11 {
+    background-color: #1873ac;
+    padding: 30px;
+    text-align: center;
+    width: 150%;
+    color: white;
+    border-radius: 30px;
+}
+.section2main1B_11 {
+    background-color: #154D71;
+    padding: 30px;
+    text-align: justify;
+    color: white;
+    border-radius: 30px;
+}
+.fotomain1B_11 {
+    width: 90%;
+    border-radius: 30px;
+}
+.main2B_11 {
+    display: flex;
+    background-color: #0065F8;
+    height: 400px;
+    justify-content: right;
+    border:5px solid #1f0074;
+    border-radius: 30px;
+}
+.sec1main2B_11 {
+    background-color: #0065F8;
+    padding: 30px;
+    text-align: justify;
+    color: white;
+    border-radius: 30px;
+}
+.sec2main2B_11 {
+    background-color: #00CAFF;
+    padding: 30px;
+    text-align: center;
+    width: 300px;
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+}
+.fotomain2B_11 {
+    width: 90%;
+    border-radius: 30px;
+}
+
+h3 i a {
+    text-shadow: 0 0 10px black;
+    color: white;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+/* -- Kelas 11 -- Bab 1 Carpon -------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+.K11B1_body {
+    text-align: center;
+    background-color: rgb(0, 94, 0);
+    color: white;
+    background-image: url(Foto/Sman3_Kelas11.jpg);
+    background-position: center;
+    background-size: cover;
+    text-shadow: 0 0 10px black;
+}
+.K11B1_main {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    height: 300px;
+}
+.K11B1_section {
+    text-shadow: 0 0 10px black;
+    width: 25%;
+    height: 80%;
+    margin: 30px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+    text-decoration: none;
+    
+}
+.K11B1_sectionh1 {
+    margin-top: 100px;
+}
+.K11B1_section1 {
+    background-image: url(Foto/MateriDongeng.jfif);
+    background-size: cover;
+    background-position: center;
+    border: 5px solid #ff6600;
+    color: rgb(255, 0, 0);
+    transition: 0.25s all linear;
+}
+.K11B1_section1:hover {
+    background-image: url(Foto/Badi_MPLS.jfif);
+    border: 5px solid rgb(255, 0, 0);
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgb(255, 138, 42);
+    color: #ff6600;
+}
+.K11B1_section2 {
+    background-image: url(Foto/CatatPraktekDongeng.jfif);
+    background-size: cover;
+    background-position: center;
+    border: 5px solid #028dff;
+    color: rgb(0, 38, 255);
+    transition: 0.25s all linear;
+}
+.K11B1_section2:hover {
+    background-image: url(Foto/Badi_praktekdongeng.jfif);
+    border: 5px solid rgb(0, 26, 255);
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgb(37, 59, 255);
+    color: #008cff;
+}
+
+
+
+
+
+
+
+
+
+
+/* -- Bab 1 Carpon -- Materi Carpon -- */
+
+
+
+
+
+
+
+.BodyB1_11 {
+    display: block;
+}
+.main1B1_11 {
+    width: 80%;
+    margin: auto auto;
+    background-color: #000658;
+    border: 3px solid rgba(255, 255, 255, 1);
+    min-height: auto;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 15px black;
+}
+.s1m1B1_11 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 20px;
+    text-shadow: 0 0 10px black;
+    height: auto;
+    border-radius: 20px;
+    width: 400px;
+    display: block;
+    background-color: #00054d;
+    border: 3px solid #00032b;
+}
+.fotos1m1B1_11 {
+    height: 550px;
+    width: 400px;
+    border-radius: 20px;
+    padding-top: 0px;
+    margin-top: 50px;
+}
+.landscapeBL {
+    height: 300px;
+}
+.s2m1B1_11 {
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    height: auto;
+    width: 600px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #000658;
+    text-shadow: 0 0 5px black;
+}
+.ABC {
+    list-style: lower-latin;
+}
+
+
+
+
+
+
+
+
+/* -- Bab 1 Carpon -- Carpon Sorangan -- */
+
+
+
+
+
+
+
+
+.BodyB1S_11 {
+    display: block;
+}
+.main1B1S_11 {
+    width: 80%;
+    margin: auto auto;
+    background-color: #000658;
+    border: 3px solid rgba(255, 255, 255, 1);
+    min-height: auto;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 15px black;
+}
+.s1m1B1S_11 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 20px;
+    text-shadow: 0 0 10px black;
+    height: auto;
+    border-radius: 20px;
+    width: 400px;
+    display: block;
+    background-color: #00054d;
+    border: 3px solid #00032b;
+}
+.fotos1m1B1S_11 {
+    height: 550px;
+    width: 400px;
+    border-radius: 20px;
+    padding-top: 0px;
+    margin-top: 50px;
+}
+.s2m1B1S_11 {
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    height: auto;
+    width: 600px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #000658;
+    text-shadow: 0 0 5px black;
+}
+.NB {
+    font-weight: normal;
+}
+.creation {
+    margin-top: 10px;
+    background-color: #000872;
+    border: 5px solid #00054b;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+/* -- Bab 1 Carpon -- Praktek Carpon -- */
+
+
+
+
+
+
+
+
+.BodyB1P_11 {
+    display: block;
+}
+.main1B1P_11 {
+    width: 80%;
+    margin: auto auto;
+    background-color: #000658;
+    border: 3px solid rgba(255, 255, 255, 1);
+    min-height: auto;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 15px black;
+}
+.s2m1B1P_11 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 20px;
+    text-shadow: 0 0 10px black;
+    height: auto;
+    border-radius: 20px;
+    width: 500px;
+    display: block;
+    background-color: #00054d;
+    border: 3px solid #00032b;
+}
+.fotos2m1B1P_11 {
+    height: 650px;
+    width: 500px;
+    border-radius: 20px;
+    padding-top: 0px;
+    margin-top: 50px;
+}
+.s1m1B1P_11 {
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    height: auto;
+    width: 500px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #000658;
+    text-shadow: 0 0 5px black;
+}
+
+
+
+
+
+
+
+
+
+/* -- Kelas 11 -- Bab 2 Biografi -------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+.K11B2_body {
+    text-align: center;
+    background-color: rgb(0, 94, 0);
+    color: white;
+    background-image: url(Foto/Sman3_Kelas11.jpg);
+    background-position: center;
+    background-size: cover;
+    text-shadow: 0 0 10px black;
+}
+.K11B2_main {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    height: 300px;
+}
+.K11B2_section {
+    text-shadow: 0 0 10px black;
+    width: 25%;
+    height: 80%;
+    margin: 30px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+    text-decoration: none;
+    
+}
+.K11B2_sectionh1 {
+    margin-top: 100px;
+}
+.K11B2_section1 {
+    background-image: url(Foto/MateriDongeng.jfif);
+    background-size: cover;
+    background-position: center;
+    border: 5px solid #ff6600;
+    color: rgb(255, 0, 0);
+    transition: 0.25s all linear;
+}
+.K11B2_section1:hover {
+    background-image: url(Foto/Badi_MPLS.jfif);
+    border: 5px solid rgb(255, 0, 0);
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgb(255, 138, 42);
+    color: #ff6600;
+}
+.K11B2_section2 {
+    background-image: url(Foto/CatatPraktekDongeng.jfif);
+    background-size: cover;
+    background-position: center;
+    border: 5px solid #028dff;
+    color: rgb(0, 38, 255);
+    transition: 0.25s all linear;
+}
+.K11B2_section2:hover {
+    background-image: url(Foto/Badi_praktekdongeng.jfif);
+    border: 5px solid rgb(0, 26, 255);
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgb(37, 59, 255);
+    color: #008cff;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* -- Bab 2 Biografi -- Materi Biografi -- */
+
+
+
+
+
+
+
+
+
+.BodyB2_11 {
+    display: block;
+}
+.main1B2_11 {
+    width: 80%;
+    margin: auto auto;
+    background-color: #000658;
+    border: 3px solid rgba(255, 255, 255, 1);
+    min-height: auto;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 15px black;
+}
+.s1m1B2_11 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 20px;
+    text-shadow: 0 0 10px black;
+    height: auto;
+    border-radius: 20px;
+    width: 400px;
+    display: block;
+    background-color: #00054d;
+    border: 3px solid #00032b;
+}
+.fotos1m1B2_11 {
+    height: 550px;
+    width: 400px;
+    border-radius: 20px;
+    padding-top: 0px;
+    margin-top: 50px;
+}
+.landscapeBL {
+    height: 300px;
+}
+.s2m1B2_11 {
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    height: auto;
+    width: 600px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #000658;
+    text-shadow: 0 0 5px black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* -- Bab 2 Biografi -- Biografi Sorangan -- */
+
+
+
+
+
+
+
+
+
+
+.BodyB2S_11 {
+    display: block;
+}
+.main1B2S_11 {
+    width: 80%;
+    margin: auto auto;
+    background-color: #000658;
+    border: 3px solid rgba(255, 255, 255, 1);
+    min-height: auto;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    display: block;
+    justify-content: center;
+    box-shadow: 0 0 15px black;
+}
+.s1m1B2S_11 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 20px;
+    margin: auto auto;
+    text-shadow: 0 0 10px black;
+    height: auto;
+    border-radius: 20px;
+    width: 90%;
+    display: block;
+    background-color: #00054d;
+    border: 3px solid #00032b;
+}
+.fotos1m1B2S_11 {
+    height: 2400px;
+    width: 100%;
+    border-radius: 20px;
+    padding-top: 0px;
+    margin-top: 50px;
+}
+.landscapeBL {
+    height: 300px;
+}
+.s2m1B2S_11 {
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    height: auto;
+    margin: auto auto;
+    width: 90%;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #000658;
+    text-shadow: 0 0 5px black;
+}
+
+.flex {
+    gap : 40px;
+    display: flex;
+}
+
+
+
+
+
+
+
+/* -- Kelas 11 -- Bab 3 Warta -----------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+.K11B3_body {
+    text-align: center;
+    background-color: rgb(0, 94, 0);
+    color: white;
+    background-image: url(Foto/Sman3_Kelas11.jpg);
+    background-position: center;
+    background-size: cover;
+    text-shadow: 0 0 10px black;
+}
+.K11B3_main {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    height: 300px;
+}
+.K11B3_section {
+    text-shadow: 0 0 10px black;
+    width: 25%;
+    height: 80%;
+    margin: 30px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+    text-decoration: none;
+    
+}
+.K11B3_sectionh1 {
+    margin-top: 100px;
+}
+.K11B3_section1 {
+    background-image: url(Foto/MateriDongeng.jfif);
+    background-size: cover;
+    background-position: center;
+    border: 5px solid #ff6600;
+    color: rgb(255, 0, 0);
+    transition: 0.25s all linear;
+}
+.K11B3_section1:hover {
+    background-image: url(Foto/Badi_MPLS.jfif);
+    border: 5px solid rgb(255, 0, 0);
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgb(255, 138, 42);
+    color: #ff6600;
+}
+.K11B3_section2 {
+    background-image: url(Foto/CatatPraktekDongeng.jfif);
+    background-size: cover;
+    background-position: center;
+    border: 5px solid #028dff;
+    color: rgb(0, 38, 255);
+    transition: 0.25s all linear;
+}
+.K11B3_section2:hover {
+    background-image: url(Foto/Badi_praktekdongeng.jfif);
+    border: 5px solid rgb(0, 26, 255);
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgb(37, 59, 255);
+    color: #008cff;
+}
+.gap {
+    gap: 40px;
+}
+
+
+
+
+
+
+
+
+/* -- Bab 3 Warta -- Materi Warta -- */
+
+
+
+
+
+
+
+.BodyB3_11 {
+    display: block;
+}
+.main1B3_11 {
+    width: 80%;
+    margin: auto auto;
+    background-color: #000658;
+    border: 3px solid rgba(255, 255, 255, 1);
+    min-height: auto;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 15px black;
+}
+.s1m1B3_11 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 20px;
+    text-shadow: 0 0 10px black;
+    height: auto;
+    border-radius: 20px;
+    width: 400px;
+    display: block;
+    background-color: #00054d;
+    border: 3px solid #00032b;
+}
+.fotos1m1B3_11 {
+    height: 550px;
+    width: 400px;
+    border-radius: 20px;
+    padding-top: 0px;
+    margin-top: 50px;
+}
+.landscapeBL {
+    height: 300px;
+}
+.s2m1B3_11 {
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    height: auto;
+    width: 600px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #000658;
+    text-shadow: 0 0 5px black;
+}
+.A {
+    text-decoration: underline;
+    color :rgb(255, 0, 0);
+}
+.NLbottom {
+    padding-top: 0;
+    margin-top: 0;
+}
