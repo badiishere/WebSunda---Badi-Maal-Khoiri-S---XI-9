@@ -399,7 +399,7 @@ a {
     box-shadow: 0 0 20px black;
 }
 .divmainNav a {
-    color: black;
+    color: rgb(255, 255, 255);
     text-shadow: 0 0 10px black;
 }
 .artsecmainNav {
@@ -421,249 +421,31 @@ a {
     background-color: rgba(0, 0, 0, 0.25);
     box-shadow: 0 0 10px rgba(0, 0, 0, 1);   
 }
-.BPD{
-    border:5px solid #5f8180;
-    background-color: #a6cfcd;
-    transition: 0.2s all linear;
+
+
+
+
+
+
+
+.B1K10 {
+    border:5px solid #fcfcfc ;
+    background: rgba(2, 0, 36, 0.1);
+    background: linear-gradient(90deg, rgba(9, 9, 121, 1) 0%, rgba(2, 0, 36, 1) 50%, rgba(9, 9, 121, 1) 100%);
+    background-size: 200% auto;
+    transition: 0.5s;
 }
-.BPD:hover {
+.B1K10:hover {
     transform: scale(1.05);
-    border:5px solid #abcfce;
-    background-color: #d1fffd;
-    box-shadow: 0 0 30px rgb(187, 255, 255);
+    border:5px solid #ffffff ;
+    background-position: right center;
+    box-shadow: 0 0 30px #ffffff;
 }
-.artBPD {
-    background-image: url(Pictures/Pulau\ Derawan\ Beranda\ Logo\ New.webp);
+.artB1K10 {
+    background-image: url(Foto/Kelas10Background.jpg);
     color: white;
 }
 
-.PSPD {
-    border:5px solid #358582 ;
-    background-color: #66D2CE ;
-    transition: 0.2s all linear;
-}
-.PSPD:hover {
-    transform: scale(1.05);
-    border:5px solid #1f9692 ;
-    background-color: #44fff9 ;
-    box-shadow: 0 0 30px #7bfffb;
-}
-.artPSPD {
-    background-image: url(Pictures/PD\ -\ DTW\ -\ Danau\ Kakaban.jpeg);
-    color: white;
-}
-.PFPD {
-    border:5px solid #217a71;
-    background-color: #2DAA9E;
-    transition: 0.2s all linear;
-}
-.PFPD:hover {
-    transform: scale(1.05);
-    border:5px solid #169689;
-    background-color: #00dac4;
-    box-shadow: 0 0 30px #47ffed;
-}
-.artPFPD {
-    background-image: url(Pictures/FasPD\ -\ Bandara\ Kalimarau.jpeg);
-    color:rgb(255, 255, 255);
-}
-.BTPPD {
-    border:5px solid #b1b1b1 ;
-    background-color: #EAEAEA;
-    transition: 0.2s all linear;
-}
-.BTPPD:hover {
-    transform: scale(1.05);
-    border:5px solid #dadada ;
-    background-color: #ffffff;
-    box-shadow: 0 0 30px white;
-}
-.artBTPPD {
-    background-image: url(Pictures/PD\ -\ BTP1.jpg);
-    color: white;
-}
-.BEPD {
-    border: 5px solid #58524c;
-    background-color: #E3D2C3;
-    transition: 0.2s all linear;
-}
-.BEPD:hover {
-    transform: scale(1.05);
-    border: 5px solid #c4c4c4;
-    background-color: #fff8f2;
-    box-shadow: 0 0 30px white;
-}
-.artBEPD {
-    background-image: url(Pictures/PD\ -\ BE1.jpg);
-    color: white;
-}
-
-
-
-
-.awhite {
-    color:white
-}
-
-.BPW{
-    border:5px solid #5f8180;
-    background-color: #a6cfcd;
-    transition: 0.2s all linear;
-}
-.BPW:hover {
-    transform: scale(1.05);
-    border:5px solid #98c0bf;
-    background-color: #bcfffc;
-    box-shadow: 0 0 30px rgb(187, 255, 255);
-}
-.artBPW {
-    background-image: url(Pictures/Pulau\ Weh\ Beranda\ Logo.webp);
-    color: white;
-}
-
-.PSPW {
-    border:5px solid #412999 ;
-    background-color: #6439FF ;
-    transition: 0.2s all linear;
-    color: white
-}
-.PSPW:hover {
-    transform: scale(1.05);
-    border:5px solid #4f2bd1 ;
-    background-color: #825fff ;
-    box-shadow: 0 0 30px #7d0cff;
-}
-.artPSPW {
-    background-image: url(Pictures/Pulau\ Weh\ Profil\ 1.jpeg);
-    color: white;
-}
-.PFPW {
-    border:5px solid #263a83;
-    background-color: #4F75FF;
-    transition: 0.2s all linear;
-}
-.PFPW:hover {
-    transform: scale(1.05);
-    border:5px solid #1b3fc2;
-    background-color: #92aaff;
-    box-shadow: 0 0 30px #8583ff;
-}
-.artPFPW {
-    background-image: url(Pictures/FasPD\ -\ Bandara\ Kalimarau.jpeg);
-    color:rgb(255, 255, 255);
-}
-.BTPPW {
-    border:5px solid #007883 ;
-    background-color: #00CCDD;
-    transition: 0.2s all linear;
-}
-.BTPPW:hover {
-    transform: scale(1.05);
-    border:5px solid #00b8c9 ;
-    background-color: #2eeeff;
-    box-shadow: 0 0 30px rgb(57, 209, 255);
-}
-.artBTPPW {
-    background-image: url(Pictures/PD\ -\ BTP1.jpg);
-    color: white;
-}
-.BEPW {
-    border: 5px solid #4d9ca3;
-    background-color: #7CF5FF;
-    transition: 0.2s all linear;
-}
-.BEPW:hover {
-    transform: scale(1.05);
-    border: 5px solid #0fd5e7;
-    background-color: #5cf1ff;
-    box-shadow: 0 0 30px rgb(33, 255, 237);
-}
-.artBEPW {
-    background-image: url(Pictures/PD\ -\ BE1.jpg);
-    color: white;
-}
-
-
-
-
-
-
-.BBB{
-    border:5px solid #5f8180;
-    background-color: #a6cfcd;
-    transition: 0.2s all linear;
-}
-.BBB:hover {
-    transform: scale(1.05);
-    border:5px solid #98c0bf;
-    background-color: #bcfffc;
-    box-shadow: 0 0 30px rgb(187, 255, 255);
-}
-.artBBB {
-    background-image: url(Pictures/Logo\ Beranda\ Labuan\ Bajo.jpeg);
-    color: white;
-}
-
-.PSBB {
-    border:5px solid #052525 ;
-    background-color: #005555 ;
-    transition: 0.2s all linear;
-}
-.PSBB:hover {
-    transform: scale(1.05);
-    border:5px solid #0c7a7a ;
-    background-color: #00bebe ;
-    box-shadow: 0 0 30px #1ca39f;
-}
-.artPSBB {
-    background-image: url(Pictures/Dusk_&_Dawn_in_Kalong_Island\,_Labuan_Bajo.jpg);
-    color: white;
-}
-.PFBB {
-    border:5px solid #0a5750;
-    background-color: #069A8E;
-    transition: 0.2s all linear;
-}
-.PFBB:hover {
-    transform: scale(1.05);
-    border:5px solid #12a599;
-    background-color: #08ddcb;
-    box-shadow: 0 0 30px #47ffed;
-}
-.artPFBB {
-    background-image: url(Pictures/TamanNasionalKomodo\ LabuanBajo.jpeg);
-    color:rgb(255, 255, 255);
-}
-.BTPBB {
-    border:5px solid #5e9188 ;
-    background-color: #A1E3D8;
-    transition: 0.2s all linear;
-}
-.BTPBB:hover {
-    transform: scale(1.05);
-    border:5px solid #81c4b7 ;
-    background-color: #befff4;
-    box-shadow: 0 0 30px rgb(230, 250, 255);
-}
-.artBTPBB {
-    background-image: url(Pictures/Labuan\ Bajo\ Berita\ pantai\ 1.webp);
-    color: white;
-}
-.BEBB {
-    border: 5px solid #8a8f43;
-    background-color: #F7FF93;
-    transition: 0.2s all linear;
-}
-.BEBB:hover {
-    transform: scale(1.05);
-    border: 5px solid #cdd468;
-    background-color: #faffb6;
-    box-shadow: 0 0 30px rgb(254, 255, 199);
-}
-.artBEBB {
-    background-image: url(Pictures/Labuan\ Bajo\ Berita\ Event\ 1.webp);
-    color: white;
-}
 
 
 
@@ -789,7 +571,7 @@ h3 i a {
     text-align: center;
     background-color: rgb(0, 94, 0);
     color: white;
-    background-image: url(Foto/Sman3_Kelas10.jpg);
+    background-image: url(Foto/Sman3_Night_Gedung1.jpg);
     background-position: center;
     background-size: cover;
     text-shadow: 0 0 10px black;
@@ -1005,7 +787,7 @@ h3 i a {
     text-align: center;
     background-color: rgb(0, 94, 0);
     color: white;
-    background-image: url(Foto/Sman3_Kelas10.jpg);
+    background-image: url(Foto/Sman3_Night_Gedung1.jpg);
     background-position: center;
     background-size: cover;
     text-shadow: 0 0 10px black;
@@ -1039,14 +821,14 @@ h3 i a {
     transition: 0.25s all linear;
 }
 .K10B2_section1:hover {
-    background-image: url(Foto/Badi_MPLS.jfif);
+    background-image: url(Foto/Materi_AksaraSunda2.jpg);
     border: 5px solid rgb(255, 0, 0);
     transform: scale(1.05);
     box-shadow: 0 0 30px rgb(255, 138, 42);
     color: #ff6600;
 }
 .K10B2_section2 {
-    background-image: url(Foto/CatatPraktekDongeng.jfif);
+    background-image: url(Foto/Materi_AksaraSunda3.jpg);
     background-size: cover;
     background-position: center;
     border: 5px solid #028dff;
@@ -1054,7 +836,7 @@ h3 i a {
     transition: 0.25s all linear;
 }
 .K10B2_section2:hover {
-    background-image: url(Foto/Badi_praktekdongeng.jfif);
+    background-image: url(Foto/Materi_AksaraSundaTES.jpg);
     border: 5px solid rgb(0, 26, 255);
     transform: scale(1.05);
     box-shadow: 0 0 30px rgb(37, 59, 255);
@@ -1147,7 +929,7 @@ h3 i a {
     text-align: center;
     background-color: rgb(0, 94, 0);
     color: white;
-    background-image: url(Foto/Sman3_Kelas10.jpg);
+    background-image: url(Foto/Sman3_Night_Gedung1.jpg);
     background-position: center;
     background-size: cover;
     text-shadow: 0 0 10px black;
@@ -1181,14 +963,14 @@ h3 i a {
     transition: 0.25s all linear;
 }
 .K10B3_section1:hover {
-    background-image: url(Foto/Badi_MPLS.jfif);
+    background-image: url(Foto/Materi_Biantara&Prakték1.jpg);
     border: 5px solid rgb(255, 0, 0);
     transform: scale(1.05);
     box-shadow: 0 0 30px rgb(255, 138, 42);
     color: #ff6600;
 }
 .K10B3_section2 {
-    background-image: url(Foto/CatatPraktekDongeng.jfif);
+    background-image: url(Foto/Materi_Biantara&Prakték1.jpg);
     background-size: cover;
     background-position: center;
     border: 5px solid #028dff;
@@ -1196,7 +978,7 @@ h3 i a {
     transition: 0.25s all linear;
 }
 .K10B3_section2:hover {
-    background-image: url(Foto/Badi_praktekdongeng.jfif);
+    background-image: url(Foto/Materi_BiantaraPrakték2.jpg);
     border: 5px solid rgb(0, 26, 255);
     transform: scale(1.05);
     box-shadow: 0 0 30px rgb(37, 59, 255);
@@ -1284,7 +1066,7 @@ h3 i a {
     text-align: center;
     background-color: rgb(0, 94, 0);
     color: white;
-    background-image: url(Foto/Sman3_Kelas10.jpg);
+    background-image: url(Foto/Sman3_Night_Gedung1.jpg);
     background-position: center;
     background-size: cover;
     text-shadow: 0 0 10px black;
@@ -1318,14 +1100,14 @@ h3 i a {
     transition: 0.25s all linear;
 }
 .K10B4_section1:hover {
-    background-image: url(Foto/Badi_MPLS.jfif);
+    background-image: url(Foto/Materi_KawihSunda1_KAWIHSUNDA.jpg);
     border: 5px solid rgb(255, 0, 0);
     transform: scale(1.05);
     box-shadow: 0 0 30px rgb(255, 138, 42);
     color: #ff6600;
 }
 .K10B4_section2 {
-    background-image: url(Foto/CatatPraktekDongeng.jfif);
+    background-image: url(Foto/Materi_KawihSunda4_Abdi....jpg);
     background-size: cover;
     background-position: center;
     border: 5px solid #028dff;
@@ -1333,7 +1115,7 @@ h3 i a {
     transition: 0.25s all linear;
 }
 .K10B4_section2:hover {
-    background-image: url(Foto/Badi_praktekdongeng.jfif);
+    background-image: url(Foto/Materi_KawihSunda5_torture.jpg);
     border: 5px solid rgb(0, 26, 255);
     transform: scale(1.05);
     box-shadow: 0 0 30px rgb(37, 59, 255);
@@ -1544,7 +1326,7 @@ h3 i a {
     text-align: center;
     background-color: rgb(0, 94, 0);
     color: white;
-    background-image: url(Foto/Sman3_Kelas11.jpg);
+    background-image: url(Foto/Sman3_Night_Pohon.jpg);
     background-position: center;
     background-size: cover;
     text-shadow: 0 0 10px black;
@@ -1578,13 +1360,28 @@ h3 i a {
     transition: 0.25s all linear;
 }
 .K11B1_section1:hover {
-    background-image: url(Foto/Badi_MPLS.jfif);
+    background-image: url(Foto/Materi_Carpon.jpg);
     border: 5px solid rgb(255, 0, 0);
     transform: scale(1.05);
     box-shadow: 0 0 30px rgb(255, 138, 42);
     color: #ff6600;
 }
 .K11B1_section2 {
+    background-image: url(Foto/CarponSorangan1.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 5px solid #00ff22;
+    color: rgb(0, 104, 35);
+    transition: 0.25s all linear;
+}
+.K11B1_section2:hover {
+    background-image: url(Foto/CarponSorangan5.jpg);
+    border: 5px solid rgb(0, 107, 5);
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgb(42, 255, 95);
+    color: #09ff00;
+}
+.K11B1_section3 {
     background-image: url(Foto/CatatPraktekDongeng.jfif);
     background-size: cover;
     background-position: center;
@@ -1592,8 +1389,8 @@ h3 i a {
     color: rgb(0, 38, 255);
     transition: 0.25s all linear;
 }
-.K11B1_section2:hover {
-    background-image: url(Foto/Badi_praktekdongeng.jfif);
+.K11B1_section3:hover {
+    background-image: url(Foto/PraktekCarpon6.jpg);
     border: 5px solid rgb(0, 26, 255);
     transform: scale(1.05);
     box-shadow: 0 0 30px rgb(37, 59, 255);
@@ -1787,14 +1584,14 @@ h3 i a {
     text-shadow: 0 0 10px black;
     height: auto;
     border-radius: 20px;
-    width: 500px;
+    width: 1000px;
     display: block;
     background-color: #00054d;
     border: 3px solid #00032b;
 }
 .fotos2m1B1P_11 {
-    height: 650px;
-    width: 500px;
+    height: 1500px;
+    width: 1000px;
     border-radius: 20px;
     padding-top: 0px;
     margin-top: 50px;
@@ -1803,7 +1600,7 @@ h3 i a {
     text-align: justify;
     color: rgb(255, 255, 255);
     height: auto;
-    width: 500px;
+    width: 00px;
     padding-left: 20px;
     padding-right: 20px;
     background-color: #000658;
@@ -1832,7 +1629,7 @@ h3 i a {
     text-align: center;
     background-color: rgb(0, 94, 0);
     color: white;
-    background-image: url(Foto/Sman3_Kelas11.jpg);
+    background-image: url(Foto/Sman3_Night_Pohon.jpg);
     background-position: center;
     background-size: cover;
     text-shadow: 0 0 10px black;
@@ -1866,7 +1663,7 @@ h3 i a {
     transition: 0.25s all linear;
 }
 .K11B2_section1:hover {
-    background-image: url(Foto/Badi_MPLS.jfif);
+    background-image: url(Foto/Materi_Biografi2.jpg);
     border: 5px solid rgb(255, 0, 0);
     transform: scale(1.05);
     box-shadow: 0 0 30px rgb(255, 138, 42);
@@ -1881,7 +1678,7 @@ h3 i a {
     transition: 0.25s all linear;
 }
 .K11B2_section2:hover {
-    background-image: url(Foto/Badi_praktekdongeng.jfif);
+    background-image: url(Foto/Biografi_Sorangan.jpg);
     border: 5px solid rgb(0, 26, 255);
     transform: scale(1.05);
     box-shadow: 0 0 30px rgb(37, 59, 255);
@@ -2059,7 +1856,7 @@ h3 i a {
     text-align: center;
     background-color: rgb(0, 94, 0);
     color: white;
-    background-image: url(Foto/Sman3_Kelas11.jpg);
+    background-image: url(Foto/Sman3_Night_Pohon.jpg);
     background-position: center;
     background-size: cover;
     text-shadow: 0 0 10px black;
@@ -2093,7 +1890,7 @@ h3 i a {
     transition: 0.25s all linear;
 }
 .K11B3_section1:hover {
-    background-image: url(Foto/Badi_MPLS.jfif);
+    background-image: url(Foto/Materi_Warta1.jpg);
     border: 5px solid rgb(255, 0, 0);
     transform: scale(1.05);
     box-shadow: 0 0 30px rgb(255, 138, 42);
