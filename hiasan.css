@@ -1988,3 +1988,74 @@ h3 i a {
     padding-top: 0;
     margin-top: 0;
 }
+
+
+
+
+
+
+
+
+
+/* -- Bab 3 Warta -- Praktek Warta -- */
+
+
+
+
+
+
+
+
+.BodyB3P_11 {
+    display: block;
+}
+.main1B3P_11 {
+    width: 80%;
+    margin: auto auto;
+    background-color: #000658;
+    border: 3px solid rgba(255, 255, 255, 1);
+    min-height: auto;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 15px black;
+}
+.s2m1B3P_11 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 20px;
+    text-shadow: 0 0 10px black;
+    height: auto;
+    border-radius: 20px;
+    width: 500px;
+    display: block;
+    background-color: #00054d;
+    border: 3px solid #00032b;
+}
+.fotos2m1B3P_11 {
+    height: 650px;
+    width: 500px;
+    border-radius: 20px;
+    padding-top: 0px;
+    margin-top: 50px;
+}
+.s1m1B3P_11 {
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    height: auto;
+    width: 500px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #000658;
+    text-shadow: 0 0 5px black;
+}
+.landscapeL {
+    height: 200px;
+}
+.landscape {
+    height: 400px;
+}
